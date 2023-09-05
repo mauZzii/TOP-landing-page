@@ -13,9 +13,106 @@ a {
 body {
     font-family: Roboto, sans-serif;
     display: flex;
-    flex-direction: column;
+        flex-flow: column wrap;
+        justify-content: center;
 }
 
 ul {
     list-style-type: none;
+}
+
+.card-container {
+    display: flex;
+}
+
+.hero .container {
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    padding: 5rem;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    padding: .5rem 1.8rem;
+    border-radius: .8rem;
+    border: none;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.hero-content {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    max-width: 520px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-img {
+    width: 520px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.8);
+    border-radius: 1rem;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information .container {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.info-heading {
+    margin-top: 1rem;
+    padding: .5rem;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.nav {
+    display: flex;
+        gap: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navbar .container {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.square {
+    height: 168px;
+    width: 168px;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+.navbar,
+.hero,
+.footer {
+    background-color: #1F2937;
 }
