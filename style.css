@@ -21,8 +21,22 @@ ul {
     list-style-type: none;
 }
 
+.card {
+    max-width: 168px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    text-align: center;
+}
+
 .card-container {
     display: flex;
+        gap: 5rem;
+}
+
+.card-subtext {
+    margin-top: .5rem;
+    color: #464647;
 }
 
 .hero .container {
@@ -67,14 +81,16 @@ ul {
 }
 
 .information .container {
+    margin: 0;
+    padding: 5rem;
     display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
 }
 
 .info-heading {
-    margin-top: 1rem;
+    margin-bottom: 5rem;
     padding: .5rem;
     font-size: 36px;
     font-weight: bolder;
@@ -104,11 +120,35 @@ ul {
     color: #F9FAF8;
 }
 
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5rem;
+}
+
+.quote .container blockquote {
+    display: inline-block;
+    text-align: start;
+    max-width: 60%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
 .square {
     height: 168px;
     width: 168px;
     border: 5px solid blue;
     border-radius: 15px;
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,0.8);
 }
 
 .navbar,
