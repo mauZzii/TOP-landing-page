@@ -39,6 +39,17 @@ ul {
     color: #464647;
 }
 
+.footer {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.footer .container {
+    color: #E5E7EB;
+    padding: 2rem;
+}
+
 .hero .container {
     display: flex;
         justify-content: space-around;
@@ -54,6 +65,12 @@ ul {
     border: 2px solid #E5E7EB;
     color: #E5E7EB;
     font-weight: bolder;
+}
+
+.hero-btn:hover,
+.bottom-btn:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 
 .hero-content {
@@ -107,6 +124,10 @@ ul {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.navbar a:hover {
+    color: #3882F6;
 }
 
 .navbar .container {
@@ -172,6 +193,8 @@ ul {
 }
 
 .square {
+    background: url(img/main-bg.jpg);
+    background-size: cover;
     height: 168px;
     width: 168px;
     border: 5px solid blue;
