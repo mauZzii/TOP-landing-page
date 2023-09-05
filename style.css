@@ -116,6 +116,7 @@ ul {
 }
 
 .nav {
+    margin-right: 10px;
     display: flex;
         gap: 10px;
 }
@@ -134,12 +135,14 @@ ul {
     display: flex;
         justify-content: space-between;
         align-items: center;
+    height: 60px;
 }
 
 .navbar .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-left: 10px;
 }
 
 .quote {
